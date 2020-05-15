@@ -1,0 +1,18 @@
+<br>
+<label for="">First name</label>
+<input type="text" name="FirstName" [(ngModel)]="FirstName" placeholder="First name ...">
+<label for="">Last name</label>
+<input type="text" name="LastName" [(ngModel)]="LastName" placeholder="Last name ...">
+
+
+<select name="ImgPath" [(ngModel)]="ImgPath" placeholder="Image ...">
+  <option value="" disabled selected>Select your option</option>
+  <option value="goalkeeper">goalkeeper</option>
+  <option value="defender">defender</option>
+  <option value="midfielder">midfielder</option>
+  <option value="forward">forward</option>
+
+</select>
+
+
+<button (click)=Login()>Add new footballer</button>

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  
+  .window {
+    position: relative;
+    background-color: rgb(240, 234, 234);
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    top: 200px;
+    cursor: pointer
+  }
+  
+  p {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    color: rgb(56, 56, 56);
+    font-family: Helvetica, Arial, sans-serif;
+    width: 90%;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+  }
+  
+  img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    left: calc(50% - 75px);
+    top: 100px;
+  }
+  
+  .addFootballer {
+    position:relative;
+    background-color: rgb(134, 12, 12);
+    color: rgb(233, 224, 224,24);
+    font-weight: bold;
+    width: 400px;
+    height: 40px;
+    top: 190px;
+    border-radius: 20px;
+    text-align: center;
+    left: calc(50% - 200px);
+    cursor: pointer
+  }
+  .delete {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+    top: 150px;
+    left: 50px;
+    font-weight: bold;
+  }
+  .update {
+  
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: green;
+    cursor: pointer;
+    top: 150px;
+    left: 30px;
+    font-weight: bold;
+  }
+  .more {
+  
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: orangered;
+    cursor: pointer;
+    top: 150px;
+    left: 70px;
+    font-weight: bold;
+  }

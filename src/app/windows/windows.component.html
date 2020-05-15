@@ -1,0 +1,24 @@
+
+  <button (click)="addNewFootballer()" class="addFootballer">Add new user</button>
+  <br>
+<span *ngFor="let footballer of footballers">
+    <div  class="window">
+     <div (click)="navigationToMore(footballer.footballerID)">
+      <span>
+        <p>First name: {{footballer.firstName}}</p>
+      </span>
+      <span>
+        <p>Last name: {{footballer.lastName}}</p>
+      </span>
+  
+      <img src={{footballer.imgPath}} alt="portrait">
+   
+  </div> <button class="update" (click)="update(footballer.footballerID)">Edit</button>  
+  <button class="delete" (click)="delete(footballer.footballerID)">Delete</button>  
+  <button class="more" (click)="more(footballer.footballerID)">More</button>  
+ 
+  </div>
+ 
+  
+  </span>
+  
